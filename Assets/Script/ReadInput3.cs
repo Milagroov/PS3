@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ReadInput2 : MonoBehaviour
+public class ReadInput3 : MonoBehaviour
 {
     private string input;
     public string sceneWin;
@@ -13,7 +13,7 @@ public class ReadInput2 : MonoBehaviour
     {
         input = n;
         Debug.Log(input);
-        if (input == "60" || input == "060")
+        if (input == "1602")
         {
             SceneManager.LoadScene(sceneWin);
         }
