@@ -35,8 +35,6 @@ public class WritingEffect : MonoBehaviour
 
             StartCoroutine("TypeWriterTMP");
         }
-
-        VivaMexico();
     }
 
     IEnumerator TypeWriterText()
@@ -84,11 +82,4 @@ public class WritingEffect : MonoBehaviour
             _tmpProText.text = _tmpProText.text.Substring(0, _tmpProText.text.Length - leadingChar.Length);
         }
     }
-
-    private void VivaMexico()
-    {
-        Debug.Log("Viva Mexicana !");
-        Debug.Log("Je danse, je danse, autour du grand sombrero");
-    }
-
 }
