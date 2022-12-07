@@ -8381,7 +8381,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1873819844
+--- !u!1 &1913238960
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8389,9 +8389,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1873819845}
-  - component: {fileID: 1873819847}
-  - component: {fileID: 1873819846}
+  - component: {fileID: 1913238961}
+  - component: {fileID: 1913238964}
+  - component: {fileID: 1913238963}
+  - component: {fileID: 1913238962}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -8399,16 +8400,16 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1873819845
+--- !u!224 &1913238961
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1873819844}
+  m_GameObject: {fileID: 1913238960}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0478804, y: 1.0478804, z: 1.0478804}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2004018287}
@@ -8416,23 +8417,39 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 507, y: 260}
-  m_SizeDelta: {x: 1967.6631, y: 1448.3484}
+  m_AnchoredPosition: {x: 3.0411, y: 683}
+  m_SizeDelta: {x: 1048.7783, y: 647.5704}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1873819846
+--- !u!114 &1913238962
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1873819844}
+  m_GameObject: {fileID: 1913238960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6d2c4d9fd9fb82438ddd446a57ec7b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delayBeforeStart: 0
+  timeBtwChars: 0.05
+  leadingChar: 
+  leadingCharBeforeDelay: 0
+--- !u!114 &1913238963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913238960}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -8444,8 +8461,8 @@ MonoBehaviour:
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 200
+    m_MinSize: 5
+    m_MaxSize: 50
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -8455,13 +8472,13 @@ MonoBehaviour:
   m_Text: "The aqueduct of Saint-Cl\xE9ment\nis 14 km long. It crosses several\nvillages
     before ending its course\nin Montpellier.\n\nConsidering the longest way,\nhow
     many houses are not connected\nto the aqueduct ?"
---- !u!222 &1873819847
+--- !u!222 &1913238964
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1873819844}
+  m_GameObject: {fileID: 1913238960}
   m_CullTransparentMesh: 1
 --- !u!1001 &1941002610
 PrefabInstance:
@@ -8956,7 +8973,7 @@ RectTransform:
   - {fileID: 2011867995}
   - {fileID: 253239575}
   - {fileID: 334403830}
-  - {fileID: 1873819845}
+  - {fileID: 1913238961}
   - {fileID: 1589260904}
   - {fileID: 1040959602}
   - {fileID: 958708192}
