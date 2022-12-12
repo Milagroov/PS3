@@ -141,7 +141,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &165871447
 RectTransform:
   m_ObjectHideFlags: 0
@@ -255,7 +255,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1100880736}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -4.228}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -274,7 +274,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 919d07a77786b73438c870c3e0d634c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Level1
+  sceneToLoad: PUZZLE1
   transition: {fileID: 0}
   transitionTime: 1
 --- !u!114 &263250953
@@ -605,7 +605,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1100880736}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -6.937}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -624,7 +624,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 919d07a77786b73438c870c3e0d634c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Level4
+  sceneToLoad: PUZZLE4
   transition: {fileID: 0}
   transitionTime: 1
 --- !u!114 &405657179
@@ -1202,18 +1202,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 2100288032}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 1509139669}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -1239,6 +1227,18 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 405657176}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1815866842}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -1334,18 +1334,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2100288038}
-        m_TargetAssemblyTypeName: ScoredProductions.ObjectFade.UIFadeBase, Assembly-CSharp
-        m_MethodName: ToggleFade
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1509139675}
         m_TargetAssemblyTypeName: ScoredProductions.ObjectFade.UIFadeBase, Assembly-CSharp
         m_MethodName: ToggleFade
@@ -1371,6 +1359,18 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 405657182}
+        m_TargetAssemblyTypeName: ScoredProductions.ObjectFade.UIFadeBase, Assembly-CSharp
+        m_MethodName: ToggleFade
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1815866844}
         m_TargetAssemblyTypeName: ScoredProductions.ObjectFade.UIFadeBase, Assembly-CSharp
         m_MethodName: ToggleFade
         m_Mode: 1
@@ -1506,10 +1506,10 @@ RectTransform:
   - {fileID: 1747145795}
   - {fileID: 1235998617}
   - {fileID: 1109108905}
-  - {fileID: 2100288033}
   - {fileID: 1509139670}
   - {fileID: 263250951}
   - {fileID: 405657177}
+  - {fileID: 1815866843}
   - {fileID: 165871447}
   - {fileID: 1632166053}
   - {fileID: 307472117}
@@ -1857,7 +1857,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1100880736}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1876,7 +1876,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 919d07a77786b73438c870c3e0d634c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Level3
+  sceneToLoad: PUZZLE3
   transition: {fileID: 0}
   transitionTime: 1
 --- !u!114 &1509139672
@@ -1990,6 +1990,50 @@ MonoBehaviour:
   OnProcessComplete:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &1558365161
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1558365163}
+  - component: {fileID: 1558365162}
+  m_Layer: 0
+  m_Name: FPS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1558365162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558365161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3891f1423a0090346828a327de92d243, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1558365163
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558365161}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -59.643024, y: 47.229744, z: -256.4726}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1613579622
 GameObject:
   m_ObjectHideFlags: 0
@@ -2024,7 +2068,7 @@ MonoBehaviour:
   - {x: 0.07, y: 31.21, z: -10}
   - {x: 0.07, y: 31.21, z: -3.42}
   Cam: {fileID: 870976712}
-  Speed: 0.01
+  Speed: 0.02
 --- !u!4 &1613579624
 Transform:
   m_ObjectHideFlags: 0
@@ -2437,7 +2481,7 @@ MonoBehaviour:
   OnProcessComplete:
     m_PersistentCalls:
       m_Calls: []
---- !u!1 &2100288032
+--- !u!1 &1815866842
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2445,61 +2489,78 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2100288033}
-  - component: {fileID: 2100288037}
-  - component: {fileID: 2100288036}
-  - component: {fileID: 2100288035}
-  - component: {fileID: 2100288034}
-  - component: {fileID: 2100288038}
+  - component: {fileID: 1815866843}
+  - component: {fileID: 1815866848}
+  - component: {fileID: 1815866847}
+  - component: {fileID: 1815866846}
+  - component: {fileID: 1815866845}
+  - component: {fileID: 1815866844}
   m_Layer: 5
-  m_Name: Button (Legacy)
+  m_Name: Button (Legacy) (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!224 &2100288033
+--- !u!224 &1815866843
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2100288032}
-  m_LocalRotation: {x: -0, y: -0, z: 0.13520366, w: 0.99081784}
+  m_GameObject: {fileID: 1815866842}
+  m_LocalRotation: {x: 0.0049233558, y: -0.015352687, z: 0.13326387, w: 0.99094945}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.8586, y: 5.061079, z: 0.85859996}
+  m_LocalScale: {x: 0.8320899, y: 4.9048123, z: 0.8320899}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1100880736}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 15.541}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0.794, y: -1.669, z: 15.307}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 315.16537, y: -27.085245}
+  m_AnchoredPosition: {x: 315, y: -29}
   m_SizeDelta: {x: 198.3385, y: 37.1884}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2100288034
+--- !u!114 &1815866844
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2100288032}
+  m_GameObject: {fileID: 1815866842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a08440009514f6468377d101c34d66c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 1.5
+  FadeOnStart: 0
+  OnProcessComplete:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1815866845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815866842}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 919d07a77786b73438c870c3e0d634c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Level2
+  sceneToLoad: PUZZLE2
   transition: {fileID: 0}
   transitionTime: 1
---- !u!114 &2100288035
+--- !u!114 &1815866846
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2100288032}
+  m_GameObject: {fileID: 1815866842}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
@@ -2533,11 +2594,11 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 2100288036}
+  m_TargetGraphic: {fileID: 1815866847}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2100288034}
+      - m_Target: {fileID: 1815866845}
         m_TargetAssemblyTypeName: SceneOpener, Assembly-CSharp
         m_MethodName: OpenScene
         m_Mode: 1
@@ -2549,13 +2610,13 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &2100288036
+--- !u!114 &1815866847
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2100288032}
+  m_GameObject: {fileID: 1815866842}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -2579,31 +2640,14 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!222 &2100288037
+--- !u!222 &1815866848
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2100288032}
+  m_GameObject: {fileID: 1815866842}
   m_CullTransparentMesh: 1
---- !u!114 &2100288038
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2100288032}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a08440009514f6468377d101c34d66c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Speed: 1.5
-  FadeOnStart: 0
-  OnProcessComplete:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &2127599026
 GameObject:
   m_ObjectHideFlags: 0

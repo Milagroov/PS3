@@ -9,42 +9,63 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: babfd7675e6c55445916e8408228a8c0
   - enabled: 1
-    path: Assets/Scenes/MenuLvl.unity
-    guid: 211f8d2e2679b9d47a963022235200bc
+    path: Assets/Scenes/PUZZLE1.unity
+    guid: 0ba18e6709338634ea5b875d9c86b162
+  - enabled: 1
+    path: Assets/Scenes/PUZZLE2.unity
+    guid: 592b5f3fe3152b2458adb33121270468
+  - enabled: 1
+    path: Assets/Scenes/PUZZLE3.unity
+    guid: e26617c73967d934dad50467d7aeb6ba
+  - enabled: 1
+    path: Assets/Scenes/PUZZLE4.unity
+    guid: 792c5296f99da0343964c84004fc6d4b
   - enabled: 1
     path: Assets/Scenes/Level1.unity
     guid: 2f1709dfef6b2d14c87763ec7e61a0fc
   - enabled: 1
-    path: Assets/Scenes/Victory1.unity
-    guid: 67eddb61020922a48ab0180db785594c
-  - enabled: 1
-    path: Assets/Scenes/Defeat1.unity
-    guid: d73664d183db0d946a113bdcde20d191
-  - enabled: 1
     path: Assets/Scenes/Level2.unity
     guid: 4c8ac45e5ec520f44865d8f07fe51968
-  - enabled: 1
-    path: Assets/Scenes/Victory2.unity
-    guid: 78eae3bae3a217f4e9e550917865005d
-  - enabled: 1
-    path: Assets/Scenes/Defeat2.unity
-    guid: 0df71087f36859f409c8487258dd1bbb
   - enabled: 1
     path: Assets/Scenes/Level3.unity
     guid: 81ff2881d87551e498cf2914c4672802
   - enabled: 1
-    path: Assets/Scenes/Victory3.unity
-    guid: d8415ac0788712f4e8603023d4c8a173
-  - enabled: 1
-    path: Assets/Scenes/Defeat3.unity
-    guid: 2ba1129e0d739df44a8ad9103f051403
-  - enabled: 1
     path: Assets/Scenes/Level4.unity
     guid: 10b0a3e6eb48cab44923690cc7bb443d
   - enabled: 1
+    path: Assets/Scenes/CORRECT1.unity
+    guid: a52ca7ff5693be94d8bdd3f1c5cbc4f4
+  - enabled: 1
+    path: Assets/Scenes/CORRECT2.unity
+    guid: 5f4812125330e7d41bfffcc682596b11
+  - enabled: 1
+    path: Assets/Scenes/CORRECT3.unity
+    guid: c8acb67782461a1429e488a01f3dde93
+  - enabled: 1
+    path: Assets/Scenes/CORRECT4.unity
+    guid: 927d1e3b180b52f43a687d3013efdccf
+  - enabled: 1
+    path: Assets/Scenes/INCORRECT1.unity
+    guid: fd0a568ba2516ae43be50bae402821d9
+  - enabled: 1
+    path: Assets/Scenes/INCORRECT2.unity
+    guid: 44825d293405a5648ab4e23c7c1c40a0
+  - enabled: 1
+    path: Assets/Scenes/INCORRECT3.unity
+    guid: 7b845d94d360e9f459225d2c5256a409
+  - enabled: 1
+    path: Assets/Scenes/INCORRECT4.unity
+    guid: 25ebb6252c4b01848ac04517c7794867
+  - enabled: 1
+    path: Assets/Scenes/Victory1.unity
+    guid: 67eddb61020922a48ab0180db785594c
+  - enabled: 1
+    path: Assets/Scenes/Victory2.unity
+    guid: 78eae3bae3a217f4e9e550917865005d
+  - enabled: 1
+    path: Assets/Scenes/Victory3.unity
+    guid: d8415ac0788712f4e8603023d4c8a173
+  - enabled: 1
     path: Assets/Scenes/Victory4.unity
     guid: bdd2fd8bd09047341ada982aa320d04f
-  - enabled: 1
-    path: Assets/Scenes/Defeat4.unity
-    guid: 5436320804ef5c34cab506959286e552
   m_configObjects: {}
