@@ -292,7 +292,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DelayAnim: 3
   DelayScene: 4.3
-  sceneToLoad: Menu
+  sceneToLoad: MENULVL4
   transition: {fileID: 1101868394}
 --- !u!4 &759010143
 Transform:
