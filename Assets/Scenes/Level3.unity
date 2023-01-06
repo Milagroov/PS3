@@ -2692,7 +2692,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayBeforeStart: 0
-  timeBtwChars: 0.05
+  timeBtwChars: 0.02
   leadingChar: 
   leadingCharBeforeDelay: 0
 --- !u!114 &578330846
